@@ -9,40 +9,14 @@
     <title>Home</title>
 </head>
 <body>
-    <!-- Messenger Chat Plugin Code -->
-    <div id="fb-root"></div>
 
-    <!-- Your Chat Plugin code -->
-    <div id="fb-customer-chat" class="fb-customerchat">
-    </div>
 
-    <script>
-      var chatbox = document.getElementById('fb-customer-chat');
-      chatbox.setAttribute("page_id", "105243122638440");
-      chatbox.setAttribute("attribution", "biz_inbox");
-    </script>
-
-    <!-- Your SDK code -->
-    <script>
-      window.fbAsyncInit = function() {
-        FB.init({
-          xfbml            : true,
-          version          : 'v17.0'
-        });
-      };
-
-      (function(d, s, id) {
-        var js, fjs = d.getElementsByTagName(s)[0];
-        if (d.getElementById(id)) return;
-        js = d.createElement(s); js.id = id;
-        js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
-        fjs.parentNode.insertBefore(js, fjs);
-      }(document, 'script', 'facebook-jssdk'));
-    </script>
     <div class="annoucement">
         <p><span>Announcement:</span> Classes for SY 2023-2024 will Begin on August 29! Get Ready for a New school Year of Learning and Growth! <a href="https://news.abs-cbn.com/news/08/03/23/classes-for-sy-2023-2024-to-begin-aug-29-deped#:~:text=ABS%2DCBN%20News,-Posted%20at%20Aug&text=MANILA%20%E2%80%94%20Classes%20in%20all%20public,Pursuant%20to%20Republic%20Act%20No." target="_blank">Learn more</a> <span class="closehead"><button>x</button></span></p>
     </div>
-  <header>  
+  <header>
+    
+    
     <nav>
         <div class="logo"><img src="img/cnhslogo__1_-removebg-preview.png" alt=""></div>
         <div class="centerbtn">
@@ -65,6 +39,8 @@
         <a href="#">Take a Tour</a>
     </div>
   </div>
+
+  
   <div class="events-caption">
     <h1>OUR LATEST NEWS</h1>
   </div>
@@ -115,16 +91,50 @@ Situated in the heart of Barangay Calingatngan, Borongan City, our school has be
   </div>
 
 
+  <div class="missionContainer">
+    <div class="mvcaption">
+      <img src="img/Logo-DepEd-1.png" alt="">
+      <h1>Vision&Mission</h1>
+      <p>What are we doing, and why we are doing it.</p>
+    </div>
+
+      <div class="visionContainer">
+        <div class="vision">
+          
+          <h2>THE DEPED VISION</h2>
+          <p>We dream of Filipinos
+            who passionately love their country
+            and whose values and competencies
+            enable them to realize their full potential
+            and contribute meaningfully to building the nation.
+            
+            As a learner-centered public institution,
+            the Department of Education
+            continuously improves itself
+            to better serve its stakeholders.</p>
+        </div>
+        <div class="mission">
+          <h2>THE DEPED MISSION</h2>
+          <p>To protect and promote the right of every Filipino to quality, equitable, culture-based, and complete basic education where:
+
+            Students learn in a child-friendly, gender-sensitive, safe, and motivating environment.
+            Teachers facilitate learning and constantly nurture every learner.
+            Administrators and staff, as stewards of the institution, ensure an enabling and supportive environment for effective learning to happen.
+            Family, community, and other stakeholders are actively engaged and share responsibility for developing life-long learners.  </p>
+        </div>
+      </div>
+  </div>
+
+
 
 <div class="strand">
     <h1>SENIOR HIGH SCHOOL PROGRAM</h1>
     <p> We offer the General Academic Strand (GAS), allowing students to explore diverse fields of knowledge and prepare for higher education.</p>
-</div>
 
 <div class="standpresentation">
   <div class="seniorhighPhoto"><img src="img/seniorhigh.jpg" alt=""></div>
-  <div class="seniorhighPhoto"><img src="img/seniorhigh2.jpg" alt=""></div>
-  <div class="seniorhighPhoto"><img src="img/seniorhigh3.jpg" alt=""></div>
+  <div class="seniorhighPhoto"><img src="img/IMG_20230905_110830.jpg" alt=""></div>
+  <div class="seniorhighPhoto"><img src="img/IMG_20230905_110759.jpg" alt=""></div>
   <div class="seniorhighPhoto"><img src="img/seniorhigh4.jpg" alt=""></div>
 
     
@@ -173,6 +183,7 @@ Situated in the heart of Barangay Calingatngan, Borongan City, our school has be
 
   <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
 
-  <script src="js/newhomepage.js"></script>
+
+  <script src="newhomepage.js"></script>
 </body>
 </html>
