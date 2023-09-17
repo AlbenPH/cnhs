@@ -11,6 +11,7 @@ body{
     overflow-x: hidden;
     background-color: #297bfa;
     background: linear-gradient(112.1deg, rgb(32, 38, 57) 11.4%, rgb(63, 76, 119) 70.2%);
+    background-color: white !important;
 
 }
 a{
@@ -302,4 +303,33 @@ footer{
 }
 .footercontent a{
     color: #81888c;
+}
+
+.missionContainer{
+    background-color: white;
+    height: 32rem;
+}
+
+.mvcaption{
+    text-align: center;
+    padding-top: 3rem;
+}
+.mvcaption p {
+    color: gray;
+}
+.mvcaption img{
+    width: 7rem;
+}
+.visionContainer{
+    margin-top: 4rem;
+    display: flex;
+}
+.vision, .mission{
+    width: 50%;
+    text-align: center;
+    margin: 3rem;
+
+}
+.vision p ,.mission p {
+    line-height: 21px;
 }
